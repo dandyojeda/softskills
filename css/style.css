@@ -1,0 +1,178 @@
+body {
+	background-color: #F7F7F7;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666666;
+}
+/*------------basics------------------*/
+form {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,b {
+	font-weight: 400;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+/*------------forms------------------*/
+input[type="text"], input[type="password"], input[type="submit"] {
+	padding: 0 12px;
+	height: 34px;
+	border: 0 none;
+	font-weight: 300;
+	display: inline-block;
+	font-weight: 300;
+	line-height: normal;
+}
+/*------------buttons------------------*/
+.button {
+	padding: 0 12px;
+	height: 34px;
+	line-height: 34px;
+	border: 0 none;
+	font-weight: 300;
+	display: inline-block;
+	font-weight: 300;
+	background-color: #4E4E55;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 8px;
+}
+.button.fit {
+	margin-right: 0;
+}
+.registerButton {
+	background-color: #00BBBE;
+	text-transform: uppercase;
+}
+/*------------top panel------------------*/
+#topPanel {
+	background: url(../img/topPanel-bg.jpg) repeat #38383E;
+	color: #A1A1A5;
+	padding: 30px 0;
+}
+#loginForm label {
+	margin: -1px 30px 0 0;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 28px;
+	float: left;
+}
+#loginForm input[type="text"], #loginForm input[type="password"] {
+	background-color: #4E4E55;
+	color: #999999;
+	margin-right: 8px;
+}
+#loginForm input[type="submit"] {
+	background-color: #4E4E55;
+	color: #fff;
+}
+/*------------header------------------*/
+#loginButon {
+	height: 38px;
+	line-height: 38px;
+	width: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#callUs {
+	margin-right: 20px;
+}
+#logo {
+	float: left;
+	margin: 0;
+}
+#logo a {
+	display: block;
+}
+/*------------nav------------------*/
+#navHolder {
+	float: right;
+	background-color: #fff;
+	border-bottom: 1px solid #E5E7E6;
+	padding: 15px;
+}
+#nav {
+	
+}
+#nav > li {
+	display: block;
+	float: left;
+	position: relative;
+}
+#nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#nav > li > a {
+	display: block;
+	color: #666666;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+}
+#nav ul {
+	visibility: hidden;
+	position: absolute;
+	width: 220px;
+	background-color: rgba(51,51,51,0.95);
+	padding: 10px 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nav ul > li {
+	display: block;
+	position: relative;
+	border-bottom: 1px solid #54575C;
+}
+#nav ul > li:last-child {
+	border-bottom: 0 none;
+}
+#nav ul > li > a {
+	display: block;
+	color: #fff;
+	height: 39px;
+	line-height: 39px;
+}
+#nav ul ul {
+	left: 112%;
+	top: 0;
+}
+#nav li:hover > ul {
+	visibility: visible;
+}
+#nav > li:hover > a {
+	background-color: #00BBBE;
+}
+#nav ul li:hover > a {
+	color: #00BBBE;
+}
