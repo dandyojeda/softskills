@@ -148,6 +148,8 @@ input[type="text"], input[type="password"], input[type="submit"] {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	-webkit-transition: 0.25s ease-out;
+  	transition: 0.25s ease-out;
 }
 #nav ul > li {
 	display: block;
